@@ -1,0 +1,29 @@
+{
+  "descriptionHash": "F1E75EAC163C312E38C48A0F32E4F9DA0544E663A050DCB37594668EB775FEB4FB33CD0F0E73FC1409196B40151F06C7529336D01DCD27B16DF62369993596B7",
+  "descriptionLocation": "/Users/aperuffo/workspace/ocm-sdk-ts/openapi/service_logs/v1/openapi.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "0.11.1-preview",
+  "clientClassName": "ServiceLogsApiClient",
+  "clientNamespaceName": "ApiSdk",
+  "language": "TypeScript",
+  "usesBackingStore": false,
+  "includeAdditionalData": true,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

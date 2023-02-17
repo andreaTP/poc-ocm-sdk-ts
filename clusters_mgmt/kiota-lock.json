@@ -1,0 +1,29 @@
+{
+  "descriptionHash": "42D626998B6103856E003D106B0E24E9AC7E1D15B2D847E982EB8A0A1CC56493265BEA0B391CAF5F4A4A0C094383678DF5671864FA5ABC53225EBF8228D5D110",
+  "descriptionLocation": "/Users/aperuffo/workspace/ocm-sdk-ts/openapi/clusters_mgmt/v1/openapi.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "0.11.1-preview",
+  "clientClassName": "ClustersMgmtApiClient",
+  "clientNamespaceName": "ApiSdk",
+  "language": "TypeScript",
+  "usesBackingStore": false,
+  "includeAdditionalData": true,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

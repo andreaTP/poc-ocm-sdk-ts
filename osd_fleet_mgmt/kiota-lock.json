@@ -1,0 +1,29 @@
+{
+  "descriptionHash": "108C2986F5B403B0C316774F99F506C02B5250F50CB90C5AACFC1FBF5CFF4C8720396CCAF12819B383F77241C5FD795EBF8EB37798CD2FEE7C6EB90A9AD462E8",
+  "descriptionLocation": "/Users/aperuffo/workspace/ocm-sdk-ts/openapi/osd_fleet_mgmt/v1/openapi.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "0.11.1-preview",
+  "clientClassName": "OsdFleetMgmtApiClient",
+  "clientNamespaceName": "ApiSdk",
+  "language": "TypeScript",
+  "usesBackingStore": false,
+  "includeAdditionalData": true,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

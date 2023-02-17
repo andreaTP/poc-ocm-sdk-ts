@@ -1,0 +1,14 @@
+import {Service_clustersRequestBuilderGetQueryParameters} from './service_clustersRequestBuilderGetQueryParameters';
+import {RequestOption} from '@microsoft/kiota-abstractions';
+
+/**
+ * Configuration for the request such as headers, query parameters, and middleware options.
+ */
+export class Service_clustersRequestBuilderGetRequestConfiguration {
+    /** Request headers */
+    public headers?: Record<string, string[]> | undefined;
+    /** Request options */
+    public options?: RequestOption[] | undefined;
+    /** Request query parameters */
+    public queryParameters?: Service_clustersRequestBuilderGetQueryParameters | undefined;
+}

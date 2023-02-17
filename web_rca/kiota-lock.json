@@ -1,0 +1,29 @@
+{
+  "descriptionHash": "9CAF8229D74DF07787084EF8E02E0C57CFF8C2B15EA8F1D85D1D7F698759AC9516BE7D757D2D76933254E98F333D2509291ADAE8C128E137BCDA217B5AB5019D",
+  "descriptionLocation": "/Users/aperuffo/workspace/ocm-sdk-ts/openapi/web_rca/v1/openapi.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "0.11.1-preview",
+  "clientClassName": "WebRcaApiClient",
+  "clientNamespaceName": "ApiSdk",
+  "language": "TypeScript",
+  "usesBackingStore": false,
+  "includeAdditionalData": true,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

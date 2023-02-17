@@ -1,0 +1,7 @@
+import {FailurePostRequestBody} from './index';
+import {ParseNode} from '@microsoft/kiota-abstractions';
+
+export function createFailurePostRequestBodyFromDiscriminatorValue(parseNode: ParseNode | undefined) : FailurePostRequestBody {
+    if(!parseNode) throw new Error("parseNode cannot be undefined");
+    return new FailurePostRequestBody();
+}

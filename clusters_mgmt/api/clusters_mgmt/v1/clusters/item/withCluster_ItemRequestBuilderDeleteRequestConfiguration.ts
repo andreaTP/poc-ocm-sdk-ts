@@ -1,0 +1,14 @@
+import {WithCluster_ItemRequestBuilderDeleteQueryParameters} from './withCluster_ItemRequestBuilderDeleteQueryParameters';
+import {RequestOption} from '@microsoft/kiota-abstractions';
+
+/**
+ * Configuration for the request such as headers, query parameters, and middleware options.
+ */
+export class WithCluster_ItemRequestBuilderDeleteRequestConfiguration {
+    /** Request headers */
+    public headers?: Record<string, string[]> | undefined;
+    /** Request options */
+    public options?: RequestOption[] | undefined;
+    /** Request query parameters */
+    public queryParameters?: WithCluster_ItemRequestBuilderDeleteQueryParameters | undefined;
+}
